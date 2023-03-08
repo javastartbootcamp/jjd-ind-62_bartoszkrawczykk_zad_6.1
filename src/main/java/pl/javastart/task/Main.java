@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        for (int i = 0; i >= 0; i++) {
+        while (true) {
             System.out.println("Podaj liczbę");
             int tmp = sc.nextInt();
 
